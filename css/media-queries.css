@@ -66,12 +66,24 @@ h2 {
 }
 
 footer {
+    display: flex;
     margin-left: 1em;
+    margin-right: 0;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    /*text-align: center;*/
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p {
+    width: 50%;
+    flex-grow: 1;
+}
+
+#social-media-links {
+    margin-right: 2em;
 }
 
 
