@@ -1,19 +1,19 @@
 body {
     margin: .5em;
-    padding: 0;
+    padding: 10px 10px 0 10px;
 }
 
 .alert-info {
     display: flex;
     justify-content: center;
-    margin: 1em;
+    /*margin: 1em;*/
     /*background-position: center;*/
     background-color: #CCFEFF;
     resize: both;
     /*overflow: auto;*/
-    width: 95%;
+    /*width: 95%;*/
     border: 1px solid #CCCCCC;
-    padding: 1em;
+    padding: 1em 0;
     /*TODO center block on page*/
 }
 
@@ -30,10 +30,14 @@ h1 {
     font-family: sans-serif;
 }
 
+ul {
+    padding: 0;
+}
+
 li {
     background-color: #CCCCCC;
-    margin: 10px;
-    padding: .5em;
+    margin: 10px 0;
+    padding: .5em 0;
     height: 1em;
     align-content: space-evenly;
     list-style: none;
@@ -45,10 +49,11 @@ li {
 }
 
 .header-img {
-    display: flex;
+    display: block;
 }
 
 img {
+    width: 100%;
     margin: auto;
 }
 
@@ -59,6 +64,16 @@ h2 {
 .sub-section {
     font-style: italic;
 }
+
+footer {
+    margin-left: 1em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*text-align: center;*/
+}
+
 
 
 
